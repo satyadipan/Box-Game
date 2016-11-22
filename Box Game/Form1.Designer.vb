@@ -33,7 +33,7 @@ Partial Class MainForm
         Me.Show_Hide.Name = "Show_Hide"
         Me.Show_Hide.Size = New System.Drawing.Size(138, 47)
         Me.Show_Hide.TabIndex = 0
-        Me.Show_Hide.Text = "Show"
+        Me.Show_Hide.Text = "Show 1"
         Me.Show_Hide.UseVisualStyleBackColor = True
         '
         'PictureBox1
