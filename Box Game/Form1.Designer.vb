@@ -26,7 +26,8 @@ Partial Class MainForm
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.btn1 = New System.Windows.Forms.Button()
-        Me.Label2 = New System.Windows.Forms.Label()
+        Me.txt1 = New System.Windows.Forms.Label()
+        Me.btn2 = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -64,21 +65,31 @@ Partial Class MainForm
         Me.btn1.TabIndex = 0
         Me.btn1.Text = "Hello"
         '
-        'Label2
+        'txt1
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(129, 116)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(31, 13)
-        Me.Label2.TabIndex = 2
-        Me.Label2.Text = "Hello"
+        Me.txt1.AutoSize = True
+        Me.txt1.Location = New System.Drawing.Point(129, 116)
+        Me.txt1.Name = "txt1"
+        Me.txt1.Size = New System.Drawing.Size(31, 13)
+        Me.txt1.TabIndex = 2
+        Me.txt1.Text = "Hello"
+        '
+        'btn2
+        '
+        Me.btn2.Location = New System.Drawing.Point(214, 364)
+        Me.btn2.Name = "btn2"
+        Me.btn2.Size = New System.Drawing.Size(125, 54)
+        Me.btn2.TabIndex = 3
+        Me.btn2.Text = "btn2"
+        Me.btn2.UseVisualStyleBackColor = True
         '
         'MainForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(536, 454)
-        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.btn2)
+        Me.Controls.Add(Me.txt1)
         Me.Controls.Add(Me.btn1)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox1)
@@ -95,5 +106,6 @@ Partial Class MainForm
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Label1 As Label
     Friend WithEvents btn1 As Button
-    Friend WithEvents Label2 As Label
+    Friend WithEvents txt1 As Label
+    Friend WithEvents btn2 As Button
 End Class
